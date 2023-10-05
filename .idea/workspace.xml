@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cebe4f97-c1e2-4a69-8a82-6b432d287902" name="변경" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group1/answer/Application1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group1/question/Application1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group1/answer/Application2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group1/question/Application2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group1/answer/Application3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group1/question/Application3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group1/answer/Application4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group1/question/Application4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/group1/answer/Application5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/group1/question/Application5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/dev/_STUDYGROUP/StudyGroupExample1/src/main/java/com/group1/answer",
+    "last_opened_file_path": "C:/dev/_STUDYGROUP/StudyGroupExample1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,6 +77,8 @@
       <workItem from="1696452014551" duration="1000" />
       <workItem from="1696452185292" duration="1888000" />
       <workItem from="1696462530581" duration="2054000" />
+      <workItem from="1696492516578" duration="7000" />
+      <workItem from="1696493557869" duration="2370000" />
     </task>
     <servers />
   </component>
