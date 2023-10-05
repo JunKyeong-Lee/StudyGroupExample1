@@ -1,20 +1,28 @@
 package com.group1.answer;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Application3 {
+public class Application4_1 {
     /*
-     * Application2 와 연계 됩니다.
+     * 각 자릿수 합 구하기
+     * 자연수를 입력했을때
+     * 그 자연수의 각 자릿수의 합을 구해보세요.
      *
-     * 팩토리얼을 다음과 같이 나오도록 작성하세요.
-     * 역시 양의 정수만 가능하고 다른 숫자형이 나오면
-     * 종료하도록 합니다.(또는 다시 시작해도 좋겠죠)
      * --- 입력값 ---
-     * 6
+     * 12345
      *
      *
      * --- 출력값 ---
-     * 1 * 2 * 3 * 4 * 5 * 6 = 720
+     * 15
+     *
+     *
+     * --- 입력값2 ---
+     * 0
+     *
+     * --- 출력값2 ---
+     * 오류!
+     *
      *
      *
      * */
@@ -24,19 +32,15 @@ public class Application3 {
 
         try {
             int num = Integer.parseInt(numStr);
-            if (num < 1) {
+            if (num < 0) {
                 System.out.println("잘못 입력했습니다. 프로그램을 종료합니다.");
                 return;
             }
-            int fact = 1;
-            for (int i = 2; i <= num; i++) {
-                fact *= i;
+            int sum = 0;
+            for (int i = 0; i < numStr.length(); i++) {
+                sum += (int) (numStr.charAt(i) - '0');
             }
-            for (int i = 1; i < num; i++) {
-                System.out.print(i + " * ");
-            }
-            System.out.print(num + " = ");
-            System.out.println(fact);
+            System.out.println(sum);
         } catch (NumberFormatException e) {
             System.out.println("잘못 입력했습니다. 프로그램을 종료합니다.");
         }

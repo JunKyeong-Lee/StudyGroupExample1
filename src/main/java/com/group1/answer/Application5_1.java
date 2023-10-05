@@ -3,7 +3,7 @@ package com.group1.answer;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Application5 {
+public class Application5_1 {
     /*
      * 소수 판별
      *
@@ -57,7 +57,7 @@ public class Application5 {
             System.out.println("0또는 음수입니다.");
         } else {
             int count = 0;
-            for (int i = 1; i <= num; i++) {
+            for (int i = 1; i <= (int) (Math.sqrt(num)); i++) {
                 if (num % i == 0) {
                     count++;
                 }
